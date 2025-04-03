@@ -7,8 +7,9 @@
 
 int main(){
     std::string str;
+    std::cout<<"state your name ";
     std::cin >> str;
-    std::cout << str;
+    std::cout << "your name is: "<<str;
 
     std::cout << std::endl << std::endl;
     return (0);
