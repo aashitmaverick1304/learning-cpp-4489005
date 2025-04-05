@@ -2,13 +2,11 @@
 // Exercise 02_03
 // Using Variables, by Eduardo Corpeño 
 
-#include <iostream>
+/*#include <iostream>
 
 int a, b = 5; // single line comment
 
-/* Multi
-*  line
-*  comment */
+
 
 int main(){
     bool my_flag;
@@ -27,4 +25,13 @@ int main(){
 
     std::cout << std::endl << std::endl;
     return (0);
-}
+}*/
+
+/*#include<iostream>
+using namespace std;
+int main(){
+    int a=5;
+    int *b=&a;
+    cout<<*(b)<<endl;
+    return 0;
+}*/
