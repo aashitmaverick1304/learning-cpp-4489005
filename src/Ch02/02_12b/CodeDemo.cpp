@@ -4,16 +4,18 @@
 
 #include <iostream>
 #include <cstdint>
-
+using namespace std;
 enum cow_purpose {dairy, meat, hide, pet};
 
+// enum cow_purpose {dairy , meat, hide , pet};
+//  dairy - 0 , meat - 1, hide - 2 , pet -3
 int main(){
     int a;
-
+    int b=pet;
     a = meat;
 
-    std::cout << "a = " << a << std::endl;
-
-    std::cout << std::endl << std::endl;
+    cout << "a = " << a << endl;
+    cout<<"b = "<<b<<endl;
+    cout << endl << endl;
     return (0);
 }
