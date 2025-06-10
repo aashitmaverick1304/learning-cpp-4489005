@@ -4,7 +4,7 @@
 
 #include <iostream>
 #include <string>
-
+using namespace std;
 enum class cow_purpose {dairy, meat, hide, pet};
 
 struct cow{
@@ -18,9 +18,9 @@ int main(){
     my_cow.age = 5;
     my_cow.name = "Betsy";
     my_cow.purpose = cow_purpose::dairy;
-    std::cout << my_cow.name << " is a type-" << (int) my_cow.purpose << " cow." << std::endl;
-    std::cout << my_cow.name << " is " << my_cow.age << " years old." << std::endl;
+    cout << my_cow.name << " is a type-" << (int) my_cow.purpose << " cow." << endl;
+    cout << my_cow.name << " is " << my_cow.age << " years old." << endl;
     
-    std::cout << std::endl << std::endl;
+    cout << endl << endl;
     return (0);
 }

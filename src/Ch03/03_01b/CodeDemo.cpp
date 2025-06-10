@@ -14,7 +14,7 @@ struct cow{
     cow_purpose purpose;
 };
 int main(){
-    cow my_cow;
+    cow my_cow;      // my_cow is an object
     my_cow.name="betsy";
     my_cow.age=7;
     my_cow.purpose=cow_purpose::dairy;
